@@ -56,7 +56,7 @@ def inside(p, region):
 files = []
 
 chunk = 120
-os = {"x": 75, "y": 64, "z": 116}
+os = {"x": 0, "y": 180, "z": 0}
 for row in range(0 + os["x"], height + os["x"], chunk):
     for col in range(0 + os["z"], width + os["z"], chunk):
         
